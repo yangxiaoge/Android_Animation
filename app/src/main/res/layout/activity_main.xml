@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.yang.bruce.android_animation.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/value_animator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ValueAnimator"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/object_animator_rotation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="ObjectAnimator_rotation"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/object_animator_alpha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ObjectAnimator_alpha"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/object_animator_translationX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ObjectAnimator_translationX"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/object_animator_scale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ObjectAnimator_scale"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/object_animator_Set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ObjectAnimator 组合动画"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="123dp"
+        android:text="Property Animation"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="18sp"/>
+
+</RelativeLayout>
